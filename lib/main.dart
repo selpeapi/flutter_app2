@@ -24,7 +24,13 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        children: [Text("asdf"), Text("adfs")],
+        children: [
+          Text("asdf"),
+          Text("adfs"),
+          SizedBox(
+            height: 100,
+          )
+        ],
       ),
     );
   }
