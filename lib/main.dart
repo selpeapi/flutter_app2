@@ -22,6 +22,10 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Column(
+        children: [Text("asdf"), Text("adfs")],
+      ),
+    );
   }
 }
