@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        //위젯의 크기 맞추가
+        //위젯의 크기 맞추기
         mainAxisSize: MainAxisSize.min,
 //        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
