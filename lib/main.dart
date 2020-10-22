@@ -25,10 +25,14 @@ class _MainPageState extends State<MainPage> {
     return Container(
       child: Column(
         //위젯의 크기 맞추기
-        mainAxisSize: MainAxisSize.min,
+//        mainAxisSize: MainAxisSize.min,
 //        crossAxisAlignment: CrossAxisAlignment.stretch,
+        //위젯 정렬 위치
+//        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        //위젯의 방향
+        verticalDirection: VerticalDirection.up,
         children: [
-          Text("asdsdsdsdsf"),
+          Text("asdf"),
           Text("adfs"),
           SizedBox(
             height: 100,
