@@ -36,7 +36,12 @@ class _MainPageState extends State<MainPage> {
           Text("adfs"),
           SizedBox(
             height: 100,
-          )
+          ),
+          Container(
+            color: Colors.teal,
+            child: Text("qwer"),
+            margin: EdgeInsets.all(20),
+          ),
         ],
       ),
     );
