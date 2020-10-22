@@ -41,6 +41,7 @@ class _MainPageState extends State<MainPage> {
             color: Colors.teal,
             child: Text("qwer"),
             margin: EdgeInsets.all(20),
+            padding: EdgeInsets.all(20),
           ),
         ],
       ),
