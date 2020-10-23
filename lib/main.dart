@@ -32,7 +32,14 @@ class _MainPageState extends State<MainPage> {
         //위젯의 방향
         verticalDirection: VerticalDirection.up,
         children: [
-          Text("asdf"),
+          Text(
+            "asdf",
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.white,
+              backgroundColor: Colors.amber,
+            ),
+          ),
           Text("adfs"),
           SizedBox(
             height: 100,
