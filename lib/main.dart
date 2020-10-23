@@ -38,6 +38,7 @@ class _MainPageState extends State<MainPage> {
             height: 100,
           ),
           Container(
+            height: 320,
             color: Colors.teal,
             child: Text("qwer"),
             margin: EdgeInsets.all(20),
