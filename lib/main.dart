@@ -40,7 +40,13 @@ class _MainPageState extends State<MainPage> {
               backgroundColor: Colors.amber,
             ),
           ),
-          Text("adfs"),
+          Text(
+            "adfs",
+            style: TextStyle(
+                fontSize: 30,
+                color: Colors.lightGreen,
+                backgroundColor: Colors.blueGrey),
+          ),
           SizedBox(
             height: 100,
           ),
