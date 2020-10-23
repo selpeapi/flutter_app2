@@ -37,7 +37,7 @@ class _MainPageState extends State<MainPage> {
               Text(
                 "asdf",
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 50,
                   color: Colors.white,
                   backgroundColor: Colors.amber,
                 ),
