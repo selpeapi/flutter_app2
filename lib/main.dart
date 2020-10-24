@@ -23,14 +23,14 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
+      child: Row(
         //위젯의 크기 맞추기
 //        mainAxisSize: MainAxisSize.min,
 //        crossAxisAlignment: CrossAxisAlignment.stretch,
         //위젯 정렬 위치
 //        mainAxisAlignment: MainAxisAlignment.spaceAround,
         //위젯의 방향
-        verticalDirection: VerticalDirection.up,
+//        verticalDirection: VerticalDirection.up,
         children: [
           Column(
             children: [
