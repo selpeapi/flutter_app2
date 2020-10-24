@@ -52,6 +52,7 @@ class _MainPageState extends State<MainPage> {
             margin: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
             padding: EdgeInsets.all(10),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(
                   "adfs",
