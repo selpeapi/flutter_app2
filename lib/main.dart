@@ -48,7 +48,9 @@ class _MainPageState extends State<MainPage> {
             ),
           ),
           Container(
+            color: Colors.cyan,
             margin: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+            padding: EdgeInsets.all(10),
             child: Text(
               "adfs",
               style: TextStyle(
