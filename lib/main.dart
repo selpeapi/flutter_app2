@@ -47,12 +47,15 @@ class _MainPageState extends State<MainPage> {
               ],
             ),
           ),
-          Text(
-            "adfs",
-            style: TextStyle(
-                fontSize: 30,
-                color: Colors.lightGreen,
-                backgroundColor: Colors.blueGrey),
+          Container(
+            margin: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+            child: Text(
+              "adfs",
+              style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.lightGreen,
+                  backgroundColor: Colors.blueGrey),
+            ),
           ),
           SizedBox(
             height: 100,
