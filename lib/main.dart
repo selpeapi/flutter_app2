@@ -68,6 +68,24 @@ class _MainPageState extends State<MainPage> {
                     fontSize: 30,
                     backgroundColor: Colors.white,
                   ),
+                ),
+                Container(
+                  color: Colors.blueAccent,
+                  child: Row(
+                    children: [
+                      Text(
+                        "3333",
+                        style: TextStyle(
+                          fontSize: 20,
+                          backgroundColor: Colors.redAccent,
+                        ),
+                      ),
+                      Text(
+                        "4444",
+                        style: TextStyle(fontSize: 20),
+                      ),
+                    ],
+                  ),
                 )
               ],
             ),
@@ -81,10 +99,10 @@ class _MainPageState extends State<MainPage> {
           ),
           Container(
             height: 320,
-            width: 130,
+            width: 100,
             color: Colors.teal,
             child: Text("qwer"),
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.all(8),
             padding: EdgeInsets.all(20),
           ),
         ],
