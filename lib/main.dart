@@ -74,12 +74,17 @@ class _MainPageState extends State<MainPage> {
                   margin: EdgeInsets.all(10),
                   child: Row(
                     children: [
-                      Text(
-                        "3333",
-                        style: TextStyle(
-                          fontSize: 20,
-                          backgroundColor: Colors.redAccent,
+                      Container(
+                        child: Text(
+                          "3333",
+                          style: TextStyle(
+                            fontSize: 20,
+                            backgroundColor: Colors.redAccent,
+                          ),
                         ),
+                        color: Colors.green,
+                        margin: EdgeInsets.all(10),
+                        padding: EdgeInsets.all(10),
                       ),
                       Text(
                         "4444",
@@ -100,7 +105,7 @@ class _MainPageState extends State<MainPage> {
           ),
           Container(
             height: 320,
-            width: 100,
+            width: 80,
             color: Colors.teal,
             child: Text("qwer"),
             margin: EdgeInsets.all(8),
