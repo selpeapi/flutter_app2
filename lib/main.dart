@@ -72,8 +72,12 @@ class _MainPageState extends State<MainPage> {
               ],
             ),
           ),
-          SizedBox(
-            height: 100,
+          Container(
+            color: Colors.green,
+            child: SizedBox(
+              width: 10,
+              height: 100,
+            ),
           ),
           Container(
             height: 320,
