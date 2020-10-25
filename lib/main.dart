@@ -53,6 +53,7 @@ class _MainPageState extends State<MainPage> {
             padding: EdgeInsets.all(10),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
                   "adfs",
