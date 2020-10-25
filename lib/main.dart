@@ -71,6 +71,7 @@ class _MainPageState extends State<MainPage> {
                 ),
                 Container(
                   color: Colors.blueAccent,
+                  margin: EdgeInsets.all(10),
                   child: Row(
                     children: [
                       Text(
