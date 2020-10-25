@@ -61,6 +61,13 @@ class _MainPageState extends State<MainPage> {
                       color: Colors.lightGreen,
                       backgroundColor: Colors.blueGrey),
                 ),
+                Text(
+                  "2222",
+                  style: TextStyle(
+                    fontSize: 30,
+                    backgroundColor: Colors.white,
+                  ),
+                )
               ],
             ),
           ),
