@@ -26,7 +26,28 @@ class _MainPageState extends State<MainPage> {
       child: Container(
         color: Colors.orangeAccent,
         child: Column(
-          children: [],
+          children: [
+            Container(
+              color: Colors.yellowAccent,
+              child: Expanded(
+                flex: 1,
+                child: Row(
+                  children: [
+                    Column(
+                      children: [Text("asd")],
+                    )
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              color: Colors.greenAccent,
+              child: Expanded(
+                  child: Row(
+                children: [Text("sdsd")],
+              )),
+            )
+          ],
         ),
       ),
     );
