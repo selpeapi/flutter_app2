@@ -32,7 +32,17 @@ class _MainPageState extends State<MainPage> {
               child: Row(
                 children: [
                   Column(
-                    children: [Text("asd")],
+                    children: [
+                      Expanded(
+                        child: Container(
+                            color: Colors.greenAccent, child: Text("asd")),
+                        flex: 1,
+                      ),
+                      Expanded(
+                        child: Text("qwer"),
+                        flex: 1,
+                      )
+                    ],
                   )
                 ],
               ),
