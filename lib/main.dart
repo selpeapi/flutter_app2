@@ -35,7 +35,9 @@ class _MainPageState extends State<MainPage> {
                     children: [
                       Expanded(
                         child: Container(
-                            color: Colors.greenAccent, child: Text("asd")),
+                          color: Colors.greenAccent,
+                          child: Text("asd"),
+                        ),
                         flex: 1,
                       ),
                       Expanded(
