@@ -42,25 +42,33 @@ class _MainPageState extends State<MainPage> {
                               color: Colors.greenAccent,
                               child: Column(
                                 children: [
-                                  Row(
-                                    children: [
-                                      Expanded(
-                                        child: Container(
-                                          color: Colors.blueAccent,
-                                          child: Text("asd"),
+                                  Expanded(
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.blueAccent,
+                                            child: Column(
+                                              children: [
+                                                Text("asd"),
+                                              ],
+                                            ),
+                                          ),
                                         ),
-                                      ),
-                                      Expanded(
-                                        child: Container(
-                                          color: Colors.greenAccent,
-                                          child: Text("asdf"),
-                                        ),
-                                      )
-                                    ],
+//                                        Expanded(
+//                                          child: Container(
+//                                            color: Colors.greenAccent,
+//                                            child: Text("asdf"),
+//                                          ),
+//                                        )
+                                      ],
+                                    ),
                                   ),
-                                  Container(
-                                    color: Colors.greenAccent,
-                                    child: Text("qwer"),
+                                  Expanded(
+                                    child: Container(
+                                      color: Colors.greenAccent,
+                                      child: Text("qwer"),
+                                    ),
                                   )
                                 ],
                               ),
