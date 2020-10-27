@@ -50,7 +50,14 @@ class _MainPageState extends State<MainPage> {
                                             color: Colors.blueAccent,
                                             child: Column(
                                               children: [
-                                                Text("asd"),
+                                                Row(
+                                                  children: [
+                                                    Expanded(
+                                                        child: Text("asd")),
+                                                    Expanded(
+                                                        child: Text("qwer")),
+                                                  ],
+                                                ),
                                               ],
                                             ),
                                           ),
