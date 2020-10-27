@@ -24,6 +24,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Container(
       child: Container(
+        //1
         color: Colors.orangeAccent,
         child: Column(
           children: [
@@ -31,20 +32,16 @@ class _MainPageState extends State<MainPage> {
               flex: 1,
               child: Row(
                 children: [
-                  Column(
-                    children: [
-                      Expanded(
-                        child: Container(
-                          color: Colors.greenAccent,
-                          child: Text("asd"),
-                        ),
-                        flex: 1,
-                      ),
-                      Expanded(
-                        child: Text("qwer"),
-                        flex: 1,
-                      )
-                    ],
+                  Expanded(
+                    child: Container(
+                      color: Colors.greenAccent,
+                      child: Text("asd"),
+                    ),
+                    flex: 1,
+                  ),
+                  Expanded(
+                    child: Text("qwer"),
+                    flex: 1,
                   )
                 ],
               ),
