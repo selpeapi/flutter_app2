@@ -53,15 +53,14 @@ class _MainPageState extends State<MainPage> {
                                                 Row(
                                                   children: [
                                                     Expanded(
-                                                        child: Row(
-                                                      children: [
-                                                        Container(
-                                                          child: Text("asd"),
-                                                          color: Colors
-                                                              .indigoAccent,
-                                                        ),
-//                                                        Text("qwer")
-                                                      ],
+                                                        child: Container(
+                                                      child: Column(
+                                                        children: [
+                                                          Text("asd"),
+                                                        ],
+                                                      ),
+                                                      color:
+                                                          Colors.indigoAccent,
                                                     )),
                                                     Expanded(
                                                         child: Text("qwer")),
