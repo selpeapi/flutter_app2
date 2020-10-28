@@ -53,6 +53,33 @@ class _MainPageState extends State<MainPage> {
                                                 Expanded(
                                                     child: Container(
                                                   color: Colors.purpleAccent,
+                                                  child: Column(
+                                                    children: [
+                                                      Expanded(
+                                                          child: Row(
+                                                        children: [
+                                                          Expanded(
+                                                              child: Row(
+                                                            children: [
+                                                              Expanded(
+                                                                child:
+                                                                    Container(
+                                                                  child: Column(
+                                                                    children: [
+                                                                      Text(
+                                                                          "asda")
+                                                                    ],
+                                                                  ),
+                                                                  color: Colors
+                                                                      .deepPurpleAccent,
+                                                                ),
+                                                              )
+                                                            ],
+                                                          ))
+                                                        ],
+                                                      ))
+                                                    ],
+                                                  ),
                                                 ))
                                               ],
                                             ),
