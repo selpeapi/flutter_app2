@@ -53,23 +53,15 @@ class _MainPageState extends State<MainPage> {
                                                 Row(
                                                   children: [
                                                     Expanded(
-                                                        child: Column(
-                                                      children: [
-                                                        Container(
-                                                          child: Column(
-                                                            children: [
-                                                              Container(
-                                                                  color: Colors
-                                                                      .indigoAccent,
-                                                                  child: Text(
-                                                                      "asd")),
-                                                              Text("qwer")
-                                                            ],
-                                                          ),
-                                                          color: Colors
-                                                              .indigoAccent,
-                                                        ),
-                                                      ],
+                                                        child: Container(
+                                                      color:
+                                                          Colors.indigoAccent,
+                                                      child: Column(
+                                                        children: [
+                                                          Text("asd"),
+                                                          Text("qwer"),
+                                                        ],
+                                                      ),
                                                     )),
                                                     Expanded(
                                                         child: Text("qwer")),
