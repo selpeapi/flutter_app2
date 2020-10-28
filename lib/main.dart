@@ -60,7 +60,7 @@ class _MainPageState extends State<MainPage> {
                                                           color: Colors
                                                               .indigoAccent,
                                                         ),
-                                                        Text("qwer")
+//                                                        Text("qwer")
                                                       ],
                                                     )),
                                                     Expanded(
