@@ -52,32 +52,22 @@ class _MainPageState extends State<MainPage> {
                                               children: [
                                                 Expanded(
                                                     child: Container(
-                                                  color: Colors.purpleAccent,
-                                                  child: Column(
+                                                  color: Colors.indigoAccent,
+                                                  child: Row(
                                                     children: [
                                                       Expanded(
-                                                          child: Row(
-                                                        children: [
-                                                          Expanded(
-                                                              child: Row(
-                                                            children: [
-                                                              Expanded(
-                                                                child:
-                                                                    Container(
-                                                                  child: Column(
-                                                                    children: [
-                                                                      Text(
-                                                                          "asda")
-                                                                    ],
-                                                                  ),
-                                                                  color: Colors
-                                                                      .deepPurpleAccent,
-                                                                ),
-                                                              )
-                                                            ],
-                                                          ))
-                                                        ],
-                                                      ))
+                                                          child: Container(
+                                                        color:
+                                                            Colors.purpleAccent,
+                                                        child: Column(
+                                                          children: [
+                                                            Text("asd"),
+                                                            Text("qwer"),
+                                                          ],
+                                                        ),
+                                                      )),
+                                                      Expanded(
+                                                          child: Text("qwer")),
                                                     ],
                                                   ),
                                                 ))
