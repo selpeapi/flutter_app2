@@ -63,19 +63,27 @@ class _MainPageState extends State<MainPage> {
                                                           children: [
                                                             Text("asd"),
                                                             Text("qwer"),
-                                                            Padding(
-                                                              padding:
-                                                                  const EdgeInsets
-                                                                      .all(8.0),
-                                                              child: Text(
-                                                                "aaaa",
-                                                                style:
-                                                                    TextStyle(
-                                                                  color: Colors
-                                                                      .green,
-                                                                  backgroundColor:
-                                                                      Colors
-                                                                          .white24,
+                                                            Container(
+                                                              margin: EdgeInsets
+                                                                  .symmetric(
+                                                                vertical: 10,
+                                                                horizontal: 30,
+                                                              ),
+                                                              child: Padding(
+                                                                padding:
+                                                                    const EdgeInsets
+                                                                            .all(
+                                                                        8.0),
+                                                                child: Text(
+                                                                  "aaaa",
+                                                                  style:
+                                                                      TextStyle(
+                                                                    color: Colors
+                                                                        .green,
+                                                                    backgroundColor:
+                                                                        Colors
+                                                                            .white24,
+                                                                  ),
                                                                 ),
                                                               ),
                                                             ),
