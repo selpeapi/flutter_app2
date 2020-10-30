@@ -63,7 +63,13 @@ class _MainPageState extends State<MainPage> {
                                                           children: [
                                                             Text("asd"),
                                                             Text("qwer"),
-                                                            Text("aaaa"),
+                                                            Text(
+                                                              "aaaa",
+                                                              style: TextStyle(
+                                                                color: Colors
+                                                                    .green,
+                                                              ),
+                                                            ),
                                                           ],
                                                         ),
                                                       )),
