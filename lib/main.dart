@@ -63,14 +63,20 @@ class _MainPageState extends State<MainPage> {
                                                           children: [
                                                             Text("asd"),
                                                             Text("qwer"),
-                                                            Text(
-                                                              "aaaa",
-                                                              style: TextStyle(
-                                                                color: Colors
-                                                                    .green,
-                                                                backgroundColor:
-                                                                    Colors
-                                                                        .white24,
+                                                            Padding(
+                                                              padding:
+                                                                  const EdgeInsets
+                                                                      .all(8.0),
+                                                              child: Text(
+                                                                "aaaa",
+                                                                style:
+                                                                    TextStyle(
+                                                                  color: Colors
+                                                                      .green,
+                                                                  backgroundColor:
+                                                                      Colors
+                                                                          .white24,
+                                                                ),
                                                               ),
                                                             ),
                                                           ],
