@@ -68,6 +68,9 @@ class _MainPageState extends State<MainPage> {
                                                               style: TextStyle(
                                                                 color: Colors
                                                                     .green,
+                                                                backgroundColor:
+                                                                    Colors
+                                                                        .white24,
                                                               ),
                                                             ),
                                                           ],
