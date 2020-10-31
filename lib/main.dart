@@ -88,11 +88,11 @@ class _MainPageState extends State<MainPage> {
                                                               ),
                                                             ),
                                                             Container(
-                                                                padding:
-                                                                    EdgeInsets
-                                                                        .only(
-                                                                  top: 10,
-                                                                ),
+                                                                padding: EdgeInsets
+                                                                    .only(
+                                                                        top: 10,
+                                                                        bottom:
+                                                                            20),
                                                                 child: Text(
                                                                     "qwer")),
                                                           ],
