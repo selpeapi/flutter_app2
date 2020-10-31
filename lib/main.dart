@@ -67,7 +67,7 @@ class _MainPageState extends State<MainPage> {
                                                               margin: EdgeInsets
                                                                   .symmetric(
                                                                 vertical: 10,
-                                                                horizontal: 30,
+                                                                horizontal: 0,
                                                               ),
                                                               child: Padding(
                                                                 padding:
