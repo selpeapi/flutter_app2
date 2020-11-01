@@ -95,7 +95,12 @@ class _MainPageState extends State<MainPage> {
                                                                             20),
                                                                 child: Text(
                                                                     "qwer")),
-                                                            Text("zxcv"),
+                                                            Text(
+                                                              "zxcv",
+                                                              style: TextStyle(
+                                                                  color: Colors
+                                                                      .green),
+                                                            ),
                                                           ],
                                                         ),
                                                       )),
