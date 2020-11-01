@@ -107,7 +107,10 @@ class _MainPageState extends State<MainPage> {
                                                                   "asdf",
                                                                   style: TextStyle(
                                                                       fontSize:
-                                                                          30),
+                                                                          30,
+                                                                      backgroundColor:
+                                                                          Colors
+                                                                              .white24),
                                                                 )
                                                               ],
                                                             ),
