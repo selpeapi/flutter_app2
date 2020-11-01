@@ -110,7 +110,9 @@ class _MainPageState extends State<MainPage> {
                                                                           30,
                                                                       backgroundColor:
                                                                           Colors
-                                                                              .white24),
+                                                                              .white24,
+                                                                      color: Colors
+                                                                          .indigoAccent),
                                                                 )
                                                               ],
                                                             ),
