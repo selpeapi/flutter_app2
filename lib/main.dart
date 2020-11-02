@@ -103,17 +103,6 @@ class _MainPageState extends State<MainPage> {
                                                                       color: Colors
                                                                           .green),
                                                                 ),
-                                                                Text(
-                                                                  "asdf",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          30,
-                                                                      backgroundColor:
-                                                                          Colors
-                                                                              .white24,
-                                                                      color: Colors
-                                                                          .indigoAccent),
-                                                                )
                                                               ],
                                                             ),
                                                           ],
