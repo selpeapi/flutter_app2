@@ -74,20 +74,8 @@ class _MainPageState extends State<MainPage> {
                                                                     const EdgeInsets
                                                                             .all(
                                                                         8.0),
-                                                                child: Text(
-                                                                  "aaaa",
-                                                                  style: TextStyle(
-                                                                      color: Colors
-                                                                          .green,
-                                                                      backgroundColor:
-                                                                          Colors
-                                                                              .white24,
-                                                                      fontSize:
-                                                                          20),
-                                                                ),
                                                               ),
                                                             ),
-
                                                           ],
                                                         ),
                                                       )),
