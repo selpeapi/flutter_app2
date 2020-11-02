@@ -87,13 +87,7 @@ class _MainPageState extends State<MainPage> {
                                                                 ),
                                                               ),
                                                             ),
-                                                            Container(
-                                                              padding: EdgeInsets
-                                                                  .only(
-                                                                      top: 10,
-                                                                      bottom:
-                                                                          20),
-                                                            ),
+
                                                           ],
                                                         ),
                                                       )),
