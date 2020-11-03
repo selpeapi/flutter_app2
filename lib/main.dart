@@ -75,7 +75,11 @@ class _MainPageState extends State<MainPage> {
                                                                             .all(
                                                                         8.0),
                                                                 child: Text(
-                                                                    "qwer"),
+                                                                  "qwer",
+                                                                  style: TextStyle(
+                                                                      fontSize:
+                                                                          30),
+                                                                ),
                                                               ),
                                                             ),
                                                           ],
