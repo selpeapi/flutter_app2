@@ -78,7 +78,7 @@ class _MainPageState extends State<MainPage> {
                                                                   "qwer3",
                                                                   style: TextStyle(
                                                                       fontSize:
-                                                                          30),
+                                                                          300),
                                                                 ),
                                                               ),
                                                             ),
