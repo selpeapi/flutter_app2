@@ -74,9 +74,6 @@ class _MainPageState extends State<MainPage> {
                                                                     const EdgeInsets
                                                                             .all(
                                                                         8.0),
-                                                                child: Text(
-                                                                  "qwer6",
-                                                                ),
                                                               ),
                                                             ),
                                                           ],
