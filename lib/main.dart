@@ -69,12 +69,6 @@ class _MainPageState extends State<MainPage> {
                                                                 vertical: 10,
                                                                 horizontal: 0,
                                                               ),
-                                                              child: Padding(
-                                                                padding:
-                                                                    const EdgeInsets
-                                                                            .all(
-                                                                        8.0),
-                                                              ),
                                                             ),
                                                           ],
                                                         ),
