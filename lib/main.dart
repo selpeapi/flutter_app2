@@ -74,11 +74,15 @@ class _MainPageState extends State<MainPage> {
                                                                     const EdgeInsets
                                                                             .all(
                                                                         8.0),
-                                                                child: Text(
-                                                                  "qwer6",
+                                                                child: SizedBox(
+                                                                  height: 100,
+                                                                  child: Text(
+                                                                    "qwer6",
+                                                                  ),
                                                                 ),
                                                               ),
                                                             ),
+                                                            Text("asdf")
                                                           ],
                                                         ),
                                                       )),
