@@ -63,12 +63,8 @@ class _MainPageState extends State<MainPage> {
                                                           children: [
                                                             Text("asd"),
                                                             Text("qwer"),
-                                                            Container(
-                                                              margin: EdgeInsets
-                                                                  .symmetric(
-                                                                vertical: 10,
-                                                                horizontal: 0,
-                                                              ),
+                                                            Column(
+                                                              children: [],
                                                             ),
                                                           ],
                                                         ),
