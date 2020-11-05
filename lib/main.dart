@@ -62,7 +62,11 @@ class _MainPageState extends State<MainPage> {
                                                         child: Column(
                                                           children: [
                                                             Text("asd"),
-                                                            Text("qwer"),
+                                                            Row(
+                                                              children: [
+                                                                Text("qwer"),
+                                                              ],
+                                                            ),
                                                           ],
                                                         ),
                                                       )),
