@@ -50,8 +50,6 @@ class _MainPageState extends State<MainPage> {
                                             color: Colors.blueAccent,
                                             child: Row(
                                               children: [
-                                                Expanded(child: Text("ad")),
-                                                //색 배치 필요
                                                 Expanded(
                                                     child: Container(
                                                   color: Colors.indigoAccent,
@@ -87,7 +85,8 @@ class _MainPageState extends State<MainPage> {
                                                           child: Text("qwer")),
                                                     ],
                                                   ),
-                                                ))
+                                                )),
+                                                Expanded(child: Text("qwer"))
                                               ],
                                             ),
                                           ),
