@@ -66,6 +66,7 @@ class _MainPageState extends State<MainPage> {
                                                                     "asd")),
                                                             Expanded(
                                                               child: Row(
+                                                                //Row 지우면 오류뜸
                                                                 children: [
                                                                   Expanded(
                                                                       child: Container(
