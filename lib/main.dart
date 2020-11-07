@@ -53,7 +53,7 @@ class _MainPageState extends State<MainPage> {
                                                 Expanded(
                                                     child: Container(
                                                   color: Colors.indigoAccent,
-                                                  child: Row(
+                                                  child: Column(
                                                     children: [
                                                       Expanded(
                                                           child: Container(
