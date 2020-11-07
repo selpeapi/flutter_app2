@@ -61,16 +61,20 @@ class _MainPageState extends State<MainPage> {
                                                             Colors.purpleAccent,
                                                         child: Column(
                                                           children: [
-                                                            Text("asd"),
-                                                            Row(
-                                                              children: [
-                                                                Expanded(
-                                                                    child: Container(
-                                                                        color: Colors
-                                                                            .deepPurpleAccent,
-                                                                        child: Text(
-                                                                            "qwer"))),
-                                                              ],
+                                                            Expanded(
+                                                                child: Text(
+                                                                    "asd")),
+                                                            Expanded(
+                                                              child: Row(
+                                                                children: [
+                                                                  Expanded(
+                                                                      child: Container(
+                                                                          color: Colors
+                                                                              .deepPurpleAccent,
+                                                                          child:
+                                                                              Text("qwer"))),
+                                                                ],
+                                                              ),
                                                             ),
                                                           ],
                                                         ),
