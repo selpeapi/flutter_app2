@@ -65,16 +65,19 @@ class _MainPageState extends State<MainPage> {
                                                                 child: Text(
                                                                     "asd")),
                                                             Expanded(
-                                                              child: Row(
-                                                                //Row 지우면 오류뜸
-                                                                children: [
-                                                                  Expanded(
-                                                                      child: Container(
-                                                                          color: Colors
-                                                                              .deepPurpleAccent,
-                                                                          child:
-                                                                              Text("qwer"))),
-                                                                ],
+                                                              child: Container(
+                                                                color: Colors
+                                                                    .deepPurpleAccent,
+                                                                child: Row(
+                                                                  //Row 지우면 오류뜸
+                                                                  children: [
+                                                                    Expanded(
+                                                                        child: Container(
+                                                                            color:
+                                                                                Colors.deepPurpleAccent,
+                                                                            child: Text("qwer"))),
+                                                                  ],
+                                                                ),
                                                               ),
                                                             ),
                                                           ],
