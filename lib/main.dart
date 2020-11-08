@@ -62,9 +62,6 @@ class _MainPageState extends State<MainPage> {
                                                         child: Row(
                                                           children: [
                                                             Expanded(
-                                                                child: Text(
-                                                                    "asd")),
-                                                            Expanded(
                                                               child: Container(
                                                                 color: Colors
                                                                     .deepPurpleAccent,
@@ -78,6 +75,9 @@ class _MainPageState extends State<MainPage> {
                                                                 ),
                                                               ),
                                                             ),
+                                                            Expanded(
+                                                                child: Text(
+                                                                    "asd")),
                                                           ],
                                                         ),
                                                       )),
