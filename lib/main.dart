@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage> {
                                                               child: Container(
                                                                 color: Colors
                                                                     .deepPurpleAccent,
-                                                                child: Row(
+                                                                child: Column(
                                                                   //Row 지우면 오류뜸
                                                                   children: [
                                                                     Expanded(
