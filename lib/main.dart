@@ -69,9 +69,6 @@ class _MainPageState extends State<MainPage> {
                                                                   //Row 지우면 오류뜸
                                                                   children: [
                                                                     Expanded(
-                                                                        child: Text(
-                                                                            "qwer")),
-                                                                    Expanded(
                                                                         child:
                                                                             Container(
                                                                       color: Colors
@@ -83,7 +80,10 @@ class _MainPageState extends State<MainPage> {
                                                                               "asdf"),
                                                                         ],
                                                                       ),
-                                                                    ))
+                                                                    )),
+                                                                    Expanded(
+                                                                        child: Text(
+                                                                            "qwer")),
                                                                   ],
                                                                 ),
                                                               ),
