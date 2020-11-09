@@ -71,6 +71,9 @@ class _MainPageState extends State<MainPage> {
                                                                     Expanded(
                                                                         child: Text(
                                                                             "qwer")),
+                                                                    Expanded(
+                                                                        child: Text(
+                                                                            "asdf"))
                                                                   ],
                                                                 ),
                                                               ),
