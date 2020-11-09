@@ -72,8 +72,13 @@ class _MainPageState extends State<MainPage> {
                                                                         child: Text(
                                                                             "qwer")),
                                                                     Expanded(
-                                                                        child: Text(
-                                                                            "asdf"))
+                                                                        child:
+                                                                            Container(
+                                                                      color: Colors
+                                                                          .deepPurple,
+                                                                      child: Text(
+                                                                          "asdf"),
+                                                                    ))
                                                                   ],
                                                                 ),
                                                               ),
