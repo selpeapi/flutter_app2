@@ -77,10 +77,6 @@ class _MainPageState extends State<MainPage> {
                                                                           Row(
                                                                         children: [
                                                                           Expanded(
-                                                                            child:
-                                                                                Text("asdf"),
-                                                                          ),
-                                                                          Expanded(
                                                                               child: Container(
                                                                             color:
                                                                                 Colors.white24,
@@ -90,7 +86,11 @@ class _MainPageState extends State<MainPage> {
                                                                                 Text("asdf"),
                                                                               ],
                                                                             ),
-                                                                          ))
+                                                                          )),
+                                                                          Expanded(
+                                                                            child:
+                                                                                Text("asdf"),
+                                                                          ),
                                                                         ],
                                                                       ),
                                                                     )),
