@@ -79,7 +79,7 @@ class _MainPageState extends State<MainPage> {
                                                                           Expanded(
                                                                               child: Container(
                                                                             color:
-                                                                                Colors.white24,
+                                                                                Colors.grey[800],
                                                                             child:
                                                                                 Column(
                                                                               children: [
