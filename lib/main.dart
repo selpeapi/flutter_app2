@@ -81,7 +81,16 @@ class _MainPageState extends State<MainPage> {
                                                                                 Text("asdf"),
                                                                           ),
                                                                           Expanded(
-                                                                              child: Container(color: Colors.white24, child: Text("asdf")))
+                                                                              child: Container(
+                                                                            color:
+                                                                                Colors.white24,
+                                                                            child:
+                                                                                Column(
+                                                                              children: [
+                                                                                Text("asdf"),
+                                                                              ],
+                                                                            ),
+                                                                          ))
                                                                         ],
                                                                       ),
                                                                     )),
