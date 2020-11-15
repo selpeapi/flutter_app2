@@ -168,7 +168,10 @@ class _MainPageState extends State<MainPage> {
             Expanded(
                 flex: 1,
                 child: Row(
-                  children: [Text("sdsd")],
+                  children: [
+                    Text("sdsd"),
+                    Container(color: Colors.redAccent, child: Text("asdf")),
+                  ],
                 ))
           ],
         ),
