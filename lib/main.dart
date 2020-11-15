@@ -175,7 +175,7 @@ class _MainPageState extends State<MainPage> {
                       color: Colors.redAccent,
                       child: Text(
                         "asdf",
-                        style: TextStyle(),
+                        style: TextStyle(fontSize: 20),
                       ),
                     ),
                   ],
