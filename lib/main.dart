@@ -173,7 +173,10 @@ class _MainPageState extends State<MainPage> {
                     Text("sdsd"),
                     Container(
                       color: Colors.redAccent,
-                      child: Text("asdf"),
+                      child: Text(
+                        "asdf",
+                        style: TextStyle(),
+                      ),
                     ),
                   ],
                 ))
