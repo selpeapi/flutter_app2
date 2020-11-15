@@ -43,6 +43,7 @@ class _MainPageState extends State<MainPage> {
                               child: Column(
                                 children: [
                                   Expanded(
+                                    //정리 필요
                                     child: Row(
                                       children: [
                                         Expanded(
