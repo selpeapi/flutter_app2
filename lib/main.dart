@@ -170,7 +170,10 @@ class _MainPageState extends State<MainPage> {
                 child: Row(
                   children: [
                     Text("sdsd"),
-                    Container(color: Colors.redAccent, child: Text("asdf")),
+                    Container(
+                      color: Colors.redAccent,
+                      child: Text("asdf"),
+                    ),
                   ],
                 ))
           ],
